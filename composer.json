@@ -1,6 +1,8 @@
 {
     "name": "gclabs/customerio-php",
+    "type": "library",
     "description": "PHP bindings for the Customer.io API (http://customer.io/)",
+    "keywords": ["customerio", "api", "guzzle", "customerio-api"],
     "require": {
         "guzzlehttp/guzzle": "^6.0"
     },

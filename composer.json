@@ -1,0 +1,19 @@
+{
+    "name": "gclabs/customerio-php",
+    "description": "PHP bindings for the Customer.io API (http://customer.io/)",
+    "require": {
+        "guzzlehttp/guzzle": "^6.0"
+    },
+    "license": "Apache License",
+    "authors": [
+        {
+            "name": "Alex Jose",
+            "email": "alexjose4u@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "CustomerIO\\": "src/"
+        }
+    }
+}

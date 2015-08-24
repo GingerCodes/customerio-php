@@ -41,6 +41,10 @@ class CustomerIOClient extends Client {
         return $this->put('customers/' . $id, ['json' => $attributes]);
     }
 
+    public function deleteCustomer($id) {
+        return $this->delete('customers/' . $id);
+    }
+
     public function createEvent($customer_id, $name, array $attributes = array()) {
         if (empty($name)) {
             throw new \InvalidArgumentException('Event name cannot be blank');
